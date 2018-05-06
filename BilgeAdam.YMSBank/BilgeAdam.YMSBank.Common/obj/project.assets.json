@@ -196,16 +196,6 @@
         "build": {
           "build/netstandard2.0/NETStandard.Library.targets": {}
         }
-      },
-      "BilgeAdam.YMSBank.Common/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v2.0",
-        "compile": {
-          "bin/placeholder/BilgeAdam.YMSBank.Common.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/BilgeAdam.YMSBank.Common.dll": {}
-        }
       }
     }
   },
@@ -666,16 +656,10 @@
         "netstandard.library.2.0.0.nupkg.sha512",
         "netstandard.library.nuspec"
       ]
-    },
-    "BilgeAdam.YMSBank.Common/1.0.0": {
-      "type": "project",
-      "path": "../BilgeAdam.YMSBank.Common/BilgeAdam.YMSBank.Common.csproj",
-      "msbuildProject": "../BilgeAdam.YMSBank.Common/BilgeAdam.YMSBank.Common.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.0": [
-      "BilgeAdam.YMSBank.Common >= 1.0.0",
       "Microsoft.NETCore.App >= 2.0.0"
     ]
   },
@@ -689,11 +673,11 @@
       "hideWarningsAndErrors": true
     },
     "restore": {
-      "projectUniqueName": "C:\\YMS8416\\YMSBank\\YMSBank\\BilgeAdam.YMSBank\\BilgeAdam.YMSBank.Data\\BilgeAdam.YMSBank.Data.csproj",
-      "projectName": "BilgeAdam.YMSBank.Data",
-      "projectPath": "C:\\YMS8416\\YMSBank\\YMSBank\\BilgeAdam.YMSBank\\BilgeAdam.YMSBank.Data\\BilgeAdam.YMSBank.Data.csproj",
+      "projectUniqueName": "C:\\YMS8416\\YMSBank\\YMSBank\\BilgeAdam.YMSBank\\BilgeAdam.YMSBank.Common\\BilgeAdam.YMSBank.Common.csproj",
+      "projectName": "BilgeAdam.YMSBank.Common",
+      "projectPath": "C:\\YMS8416\\YMSBank\\YMSBank\\BilgeAdam.YMSBank\\BilgeAdam.YMSBank.Common\\BilgeAdam.YMSBank.Common.csproj",
       "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-      "outputPath": "C:\\YMS8416\\YMSBank\\YMSBank\\BilgeAdam.YMSBank\\BilgeAdam.YMSBank.Data\\obj\\",
+      "outputPath": "C:\\YMS8416\\YMSBank\\YMSBank\\BilgeAdam.YMSBank\\BilgeAdam.YMSBank.Common\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -711,11 +695,7 @@
       },
       "frameworks": {
         "netcoreapp2.0": {
-          "projectReferences": {
-            "C:\\YMS8416\\YMSBank\\YMSBank\\BilgeAdam.YMSBank\\BilgeAdam.YMSBank.Common\\BilgeAdam.YMSBank.Common.csproj": {
-              "projectPath": "C:\\YMS8416\\YMSBank\\YMSBank\\BilgeAdam.YMSBank\\BilgeAdam.YMSBank.Common\\BilgeAdam.YMSBank.Common.csproj"
-            }
-          }
+          "projectReferences": {}
         }
       },
       "warningProperties": {
