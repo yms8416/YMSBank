@@ -7,17 +7,19 @@ using System.Text;
 
 namespace BilgeAdam.YMSBank.Data.Entities
 {
-    [Table("Accounts", Schema = "Account")]
-    public class Account : EntityBase
+    [Table("Transfers", Schema = "Finance")]
+    public class Transfer : EntityBase
     {
         [Required]
-        public long OwnerId { get; set; }
+        public long FromId { get; set; }
         [Required]
-        public long CurrencyTypeId { get; set; }
+        public long ToId { get; set; }
         [Required]
         public decimal Amount { get; set; }
 
-        [ForeignKey(nameof(OwnerId))]
-        public Customer Owner { get; set; }
+        [ForeignKey(nameof(FromId))]
+        public virtual Account From { get; set; }
+        [ForeignKey(nameof(ToId))]
+        public virtual Account To { get; set; }
     }
 }

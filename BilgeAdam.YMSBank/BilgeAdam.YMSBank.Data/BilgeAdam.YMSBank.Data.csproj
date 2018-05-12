@@ -5,10 +5,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Context\" />
-  </ItemGroup>
-
-  <ItemGroup>
     <ProjectReference Include="..\BilgeAdam.YMSBank.Common\BilgeAdam.YMSBank.Common.csproj" />
   </ItemGroup>
 
