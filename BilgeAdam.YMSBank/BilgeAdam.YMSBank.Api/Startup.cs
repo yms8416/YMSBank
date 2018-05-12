@@ -8,6 +8,8 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
+using BilgeAdam.YMSBank.Data.Context;
+using Microsoft.EntityFrameworkCore;
 
 namespace BilgeAdam.YMSBank.Api
 {
@@ -20,13 +22,13 @@ namespace BilgeAdam.YMSBank.Api
 
         public IConfiguration Configuration { get; }
 
-        // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            var connstr = Configuration.GetConnectionString("DefaultConnectionString");
+            services.AddDbContext<YMSContext>(options =>  options.UseSqlServer(connstr));
             services.AddMvc();
         }
 
-        // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IHostingEnvironment env)
         {
             if (env.IsDevelopment())
@@ -34,7 +36,7 @@ namespace BilgeAdam.YMSBank.Api
                 app.UseDeveloperExceptionPage();
             }
 
-            app.UseMvc();
+            app.UseMvc(route => route.MapRoute("Default", "api/{controller}/{action}/{id?}"));
         }
     }
 }

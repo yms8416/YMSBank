@@ -1,0 +1,15 @@
+C:\YMS8416\YMSBank\YMSBank\BilgeAdam.YMSBank\Test\bin\Debug\netcoreapp2.0\Test.deps.json
+C:\YMS8416\YMSBank\YMSBank\BilgeAdam.YMSBank\Test\bin\Debug\netcoreapp2.0\Test.runtimeconfig.json
+C:\YMS8416\YMSBank\YMSBank\BilgeAdam.YMSBank\Test\bin\Debug\netcoreapp2.0\Test.runtimeconfig.dev.json
+C:\YMS8416\YMSBank\YMSBank\BilgeAdam.YMSBank\Test\bin\Debug\netcoreapp2.0\Test.dll
+C:\YMS8416\YMSBank\YMSBank\BilgeAdam.YMSBank\Test\bin\Debug\netcoreapp2.0\Test.pdb
+C:\YMS8416\YMSBank\YMSBank\BilgeAdam.YMSBank\Test\obj\Debug\netcoreapp2.0\Test.csprojResolveAssemblyReference.cache
+C:\YMS8416\YMSBank\YMSBank\BilgeAdam.YMSBank\Test\obj\Debug\netcoreapp2.0\Test.csproj.CoreCompileInputs.cache
+C:\YMS8416\YMSBank\YMSBank\BilgeAdam.YMSBank\Test\obj\Debug\netcoreapp2.0\Test.AssemblyInfoInputs.cache
+C:\YMS8416\YMSBank\YMSBank\BilgeAdam.YMSBank\Test\obj\Debug\netcoreapp2.0\Test.AssemblyInfo.cs
+C:\YMS8416\YMSBank\YMSBank\BilgeAdam.YMSBank\Test\obj\Debug\netcoreapp2.0\Test.dll
+C:\YMS8416\YMSBank\YMSBank\BilgeAdam.YMSBank\Test\obj\Debug\netcoreapp2.0\Test.pdb
+C:\YMS8416\YMSBank\YMSBank\BilgeAdam.YMSBank\Test\bin\Debug\netcoreapp2.0\BilgeAdam.YMSBank.Common.dll
+C:\YMS8416\YMSBank\YMSBank\BilgeAdam.YMSBank\Test\bin\Debug\netcoreapp2.0\BilgeAdam.YMSBank.Data.dll
+C:\YMS8416\YMSBank\YMSBank\BilgeAdam.YMSBank\Test\bin\Debug\netcoreapp2.0\BilgeAdam.YMSBank.Data.pdb
+C:\YMS8416\YMSBank\YMSBank\BilgeAdam.YMSBank\Test\bin\Debug\netcoreapp2.0\BilgeAdam.YMSBank.Common.pdb
