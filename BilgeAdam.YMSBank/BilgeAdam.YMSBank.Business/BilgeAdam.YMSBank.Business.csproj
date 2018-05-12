@@ -4,4 +4,10 @@
     <TargetFramework>netcoreapp2.0</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\BilgeAdam.YMSBank.Contract\BilgeAdam.YMSBank.Contract.csproj" />
+    <ProjectReference Include="..\BilgeAdam.YMSBank.DataTransferObjects\BilgeAdam.YMSBank.DataTransferObjects.csproj" />
+    <ProjectReference Include="..\BilgeAdam.YMSBank.Data\BilgeAdam.YMSBank.Data.csproj" />
+  </ItemGroup>
+
 </Project>

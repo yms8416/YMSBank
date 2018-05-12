@@ -10,6 +10,8 @@ using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
 using BilgeAdam.YMSBank.Data.Context;
 using Microsoft.EntityFrameworkCore;
+using BilgeAdam.YMSBank.Contract;
+using BilgeAdam.YMSBank.Business.Concrete;
 
 namespace BilgeAdam.YMSBank.Api
 {
@@ -26,6 +28,7 @@ namespace BilgeAdam.YMSBank.Api
         {
             var connstr = Configuration.GetConnectionString("DefaultConnectionString");
             services.AddDbContext<YMSContext>(options =>  options.UseSqlServer(connstr));
+            services.AddScoped<IPersonApi, PersonService>();
             services.AddMvc();
         }
 

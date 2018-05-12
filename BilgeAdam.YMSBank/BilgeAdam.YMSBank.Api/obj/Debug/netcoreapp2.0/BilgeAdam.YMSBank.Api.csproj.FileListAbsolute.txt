@@ -13,3 +13,9 @@ C:\YMS8416\YMSBank\YMSBank\BilgeAdam.YMSBank\BilgeAdam.YMSBank.Api\bin\Debug\net
 C:\YMS8416\YMSBank\YMSBank\BilgeAdam.YMSBank\BilgeAdam.YMSBank.Api\bin\Debug\netcoreapp2.0\BilgeAdam.YMSBank.Common.pdb
 C:\YMS8416\YMSBank\YMSBank\BilgeAdam.YMSBank\BilgeAdam.YMSBank.Api\obj\Debug\netcoreapp2.0\BilgeAdam.YMSBank.Api.dll
 C:\YMS8416\YMSBank\YMSBank\BilgeAdam.YMSBank\BilgeAdam.YMSBank.Api\obj\Debug\netcoreapp2.0\BilgeAdam.YMSBank.Api.pdb
+C:\YMS8416\YMSBank\YMSBank\BilgeAdam.YMSBank\BilgeAdam.YMSBank.Api\bin\Debug\netcoreapp2.0\BilgeAdam.YMSBank.Business.dll
+C:\YMS8416\YMSBank\YMSBank\BilgeAdam.YMSBank\BilgeAdam.YMSBank.Api\bin\Debug\netcoreapp2.0\BilgeAdam.YMSBank.Business.pdb
+C:\YMS8416\YMSBank\YMSBank\BilgeAdam.YMSBank\BilgeAdam.YMSBank.Api\bin\Debug\netcoreapp2.0\BilgeAdam.YMSBank.Contract.dll
+C:\YMS8416\YMSBank\YMSBank\BilgeAdam.YMSBank\BilgeAdam.YMSBank.Api\bin\Debug\netcoreapp2.0\BilgeAdam.YMSBank.DataTransferObjects.dll
+C:\YMS8416\YMSBank\YMSBank\BilgeAdam.YMSBank\BilgeAdam.YMSBank.Api\bin\Debug\netcoreapp2.0\BilgeAdam.YMSBank.Contract.pdb
+C:\YMS8416\YMSBank\YMSBank\BilgeAdam.YMSBank\BilgeAdam.YMSBank.Api\bin\Debug\netcoreapp2.0\BilgeAdam.YMSBank.DataTransferObjects.pdb

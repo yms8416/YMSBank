@@ -7,6 +7,7 @@ namespace BilgeAdam.YMSBank.Common
 {
     public abstract class EntityBase
     {
+        //YAGNI
         public EntityBase()
         {
             IsActive = true;
