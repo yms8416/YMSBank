@@ -18,6 +18,6 @@ namespace BilgeAdam.YMSBank.Data.Entities
         public decimal Amount { get; set; }
 
         [ForeignKey(nameof(OwnerId))]
-        public Customer Owner { get; set; }
+        public virtual Customer Owner { get; set; }
     }
 }

@@ -22,6 +22,6 @@ namespace BilgeAdam.YMSBank.Data.Entities
         public string IsLocked { get; set; }
 
         [ForeignKey(nameof(PersonId))]
-        public Person Person { get; set; }
+        public virtual Person Person { get; set; }
     }
 }

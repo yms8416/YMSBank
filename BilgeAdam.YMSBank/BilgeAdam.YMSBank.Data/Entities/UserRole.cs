@@ -16,8 +16,8 @@ namespace BilgeAdam.YMSBank.Data.Entities
         public long RoleId { get; set; }
 
         [ForeignKey(nameof(UserId))]
-        public User User { get; set; }
+        public virtual User User { get; set; }
         [ForeignKey(nameof(RoleId))]
-        public Role Role { get; set; }
+        public virtual Role Role { get; set; }
     }
 }

@@ -16,6 +16,6 @@ namespace BilgeAdam.YMSBank.Data.Entities
         [MaxLength(12)]
         public string CustomerNumber { get; set; }
         [ForeignKey(nameof(PersonId))]
-        public Person Person { get; set; }
+        public virtual Person Person { get; set; }
     }
 }
