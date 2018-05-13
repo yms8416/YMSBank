@@ -21,9 +21,14 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BilgeAdam.YMSBank.Auth", "B
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BilgeAdam.YMSBank.Common", "BilgeAdam.YMSBank.Common\BilgeAdam.YMSBank.Common.csproj", "{08E9BB38-9398-4403-8F38-30822457EE4E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BilgeAdam.YMSBank.Contract", "BilgeAdam.YMSBank.Contract\BilgeAdam.YMSBank.Contract.csproj", "{4A5D82B9-E05D-4E76-99BA-474015A50A55}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BilgeAdam.YMSBank.Contract", "BilgeAdam.YMSBank.Contract\BilgeAdam.YMSBank.Contract.csproj", "{4A5D82B9-E05D-4E76-99BA-474015A50A55}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BilgeAdam.YMSBank.DataTransferObjects", "BilgeAdam.YMSBank.DataTransferObjects\BilgeAdam.YMSBank.DataTransferObjects.csproj", "{EB15DD20-D182-43D6-87EB-7E48E670A5EE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BilgeAdam.YMSBank.DataTransferObjects", "BilgeAdam.YMSBank.DataTransferObjects\BilgeAdam.YMSBank.DataTransferObjects.csproj", "{EB15DD20-D182-43D6-87EB-7E48E670A5EE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Notes", "Notes", "{C374053A-A9C8-4E85-A001-CA0147EF78C5}"
+	ProjectSection(SolutionItems) = preProject
+		EFMigration.txt = EFMigration.txt
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

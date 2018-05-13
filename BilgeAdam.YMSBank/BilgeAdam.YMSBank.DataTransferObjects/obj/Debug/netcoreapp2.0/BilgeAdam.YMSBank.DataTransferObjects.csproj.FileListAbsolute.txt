@@ -6,3 +6,4 @@ C:\YMS8416\YMSBank\YMSBank\BilgeAdam.YMSBank\BilgeAdam.YMSBank.DataTransferObjec
 C:\YMS8416\YMSBank\YMSBank\BilgeAdam.YMSBank\BilgeAdam.YMSBank.DataTransferObjects\obj\Debug\netcoreapp2.0\BilgeAdam.YMSBank.DataTransferObjects.AssemblyInfo.cs
 C:\YMS8416\YMSBank\YMSBank\BilgeAdam.YMSBank\BilgeAdam.YMSBank.DataTransferObjects\obj\Debug\netcoreapp2.0\BilgeAdam.YMSBank.DataTransferObjects.dll
 C:\YMS8416\YMSBank\YMSBank\BilgeAdam.YMSBank\BilgeAdam.YMSBank.DataTransferObjects\obj\Debug\netcoreapp2.0\BilgeAdam.YMSBank.DataTransferObjects.pdb
+C:\YMS8416\YMSBank\YMSBank\BilgeAdam.YMSBank\BilgeAdam.YMSBank.DataTransferObjects\obj\Debug\netcoreapp2.0\BilgeAdam.YMSBank.DataTransferObjects.csprojResolveAssemblyReference.cache
