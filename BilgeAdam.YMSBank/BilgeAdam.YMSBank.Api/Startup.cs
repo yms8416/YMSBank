@@ -27,9 +27,26 @@ namespace BilgeAdam.YMSBank.Api
         public void ConfigureServices(IServiceCollection services)
         {
             var connstr = Configuration.GetConnectionString("DefaultConnectionString");
-            services.AddDbContext<YMSContext>(options =>  options.UseSqlServer(connstr));
+            services.AddDbContext<YMSContext>(options => options.UseSqlServer(connstr));
             services.AddScoped<IPersonApi, PersonService>();
+            services.AddScoped<ILookupApi, LookupService>();
             services.AddMvc();
+            services.AddSwaggerGen(setup =>
+            {
+                setup.SwaggerDoc("v1", new Swashbuckle.AspNetCore.Swagger.Info
+                {
+                    Version = "1.0.0",
+                    Title = "YMS Bank API",
+                    Description = "Bizim bankanın kullanım klavuzu",
+                    TermsOfService = "None",
+                    Contact = new Swashbuckle.AspNetCore.Swagger.Contact
+                    {
+                        Name = "Can PERK",
+                        Email = "can.perk@bilgeadam.com",
+                        Url = "https://githubcom/canperk"
+                    }
+                });
+            });
         }
 
         public void Configure(IApplicationBuilder app, IHostingEnvironment env)
@@ -40,6 +57,10 @@ namespace BilgeAdam.YMSBank.Api
             }
 
             app.UseMvc(route => route.MapRoute("Default", "api/{controller}/{action}/{id?}"));
+            app.UseSwagger();
+            app.UseSwaggerUI(setup => {
+                setup.SwaggerEndpoint("/swagger/v1/swagger.json", "YMS Bank API");
+            });
         }
     }
 }
