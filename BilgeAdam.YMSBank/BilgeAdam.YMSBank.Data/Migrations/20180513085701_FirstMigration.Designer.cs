@@ -11,9 +11,10 @@ using System;
 namespace BilgeAdam.YMSBank.Data.Migrations
 {
     [DbContext(typeof(YMSContext))]
-    partial class YMSContextModelSnapshot : ModelSnapshot
+    [Migration("20180513085701_FirstMigration")]
+    partial class FirstMigration
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -254,22 +255,18 @@ namespace BilgeAdam.YMSBank.Data.Migrations
                     b.Property<long?>("CreatedBy");
 
                     b.Property<string>("EMail")
-                        .IsRequired()
-                        .HasMaxLength(60);
+                        .IsRequired();
 
                     b.Property<string>("FirstName")
-                        .IsRequired()
-                        .HasMaxLength(50);
+                        .IsRequired();
 
                     b.Property<bool>("IsActive");
 
                     b.Property<string>("LastName")
-                        .IsRequired()
-                        .HasMaxLength(50);
+                        .IsRequired();
 
                     b.Property<string>("Phone")
-                        .IsRequired()
-                        .HasMaxLength(14);
+                        .IsRequired();
 
                     b.Property<DateTime?>("Updated")
                         .ValueGeneratedOnAddOrUpdate();

@@ -1,16 +1,19 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel;
 using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 using System.Text;
 
 namespace BilgeAdam.YMSBank.Common
 {
     public abstract class EntityBase
     {
-        //YAGNI
         public EntityBase()
         {
             IsActive = true;
+            Created = DateTime.Now;
+            Updated = DateTime.Now;
         }
         [Key]
         public long Id { get; set; }

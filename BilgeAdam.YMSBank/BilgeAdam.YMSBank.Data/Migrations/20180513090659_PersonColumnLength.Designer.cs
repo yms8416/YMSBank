@@ -11,8 +11,8 @@ using System;
 namespace BilgeAdam.YMSBank.Data.Migrations
 {
     [DbContext(typeof(YMSContext))]
-    [Migration("20180513080824_FirstMigration")]
-    partial class FirstMigration
+    [Migration("20180513090659_PersonColumnLength")]
+    partial class PersonColumnLength
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -28,7 +28,8 @@ namespace BilgeAdam.YMSBank.Data.Migrations
 
                     b.Property<decimal>("Amount");
 
-                    b.Property<DateTime?>("Created");
+                    b.Property<DateTime?>("Created")
+                        .ValueGeneratedOnAddOrUpdate();
 
                     b.Property<long?>("CreatedBy");
 
@@ -38,7 +39,8 @@ namespace BilgeAdam.YMSBank.Data.Migrations
 
                     b.Property<long>("OwnerId");
 
-                    b.Property<DateTime?>("Updated");
+                    b.Property<DateTime?>("Updated")
+                        .ValueGeneratedOnAddOrUpdate();
 
                     b.Property<long?>("UpdatedBy");
 
@@ -58,7 +60,8 @@ namespace BilgeAdam.YMSBank.Data.Migrations
 
                     b.Property<decimal>("Amount");
 
-                    b.Property<DateTime?>("Created");
+                    b.Property<DateTime?>("Created")
+                        .ValueGeneratedOnAddOrUpdate();
 
                     b.Property<long?>("CreatedBy");
 
@@ -66,7 +69,8 @@ namespace BilgeAdam.YMSBank.Data.Migrations
 
                     b.Property<bool>("IsActive");
 
-                    b.Property<DateTime?>("Updated");
+                    b.Property<DateTime?>("Updated")
+                        .ValueGeneratedOnAddOrUpdate();
 
                     b.Property<long?>("UpdatedBy");
 
@@ -84,7 +88,8 @@ namespace BilgeAdam.YMSBank.Data.Migrations
                     b.Property<long>("Id")
                         .ValueGeneratedOnAdd();
 
-                    b.Property<DateTime?>("Created");
+                    b.Property<DateTime?>("Created")
+                        .ValueGeneratedOnAddOrUpdate();
 
                     b.Property<long?>("CreatedBy");
 
@@ -96,7 +101,8 @@ namespace BilgeAdam.YMSBank.Data.Migrations
 
                     b.Property<long>("PersonId");
 
-                    b.Property<DateTime?>("Updated");
+                    b.Property<DateTime?>("Updated")
+                        .ValueGeneratedOnAddOrUpdate();
 
                     b.Property<long?>("UpdatedBy");
 
@@ -112,7 +118,8 @@ namespace BilgeAdam.YMSBank.Data.Migrations
                     b.Property<long>("Id")
                         .ValueGeneratedOnAdd();
 
-                    b.Property<DateTime?>("Created");
+                    b.Property<DateTime?>("Created")
+                        .ValueGeneratedOnAddOrUpdate();
 
                     b.Property<long?>("CreatedBy");
 
@@ -124,7 +131,8 @@ namespace BilgeAdam.YMSBank.Data.Migrations
 
                     b.Property<long>("PersonId");
 
-                    b.Property<DateTime?>("Updated");
+                    b.Property<DateTime?>("Updated")
+                        .ValueGeneratedOnAddOrUpdate();
 
                     b.Property<long?>("UpdatedBy");
 
@@ -144,7 +152,8 @@ namespace BilgeAdam.YMSBank.Data.Migrations
                     b.Property<long>("Id")
                         .ValueGeneratedOnAdd();
 
-                    b.Property<DateTime?>("Created");
+                    b.Property<DateTime?>("Created")
+                        .ValueGeneratedOnAddOrUpdate();
 
                     b.Property<long?>("CreatedBy");
 
@@ -157,7 +166,8 @@ namespace BilgeAdam.YMSBank.Data.Migrations
 
                     b.Property<int?>("Order");
 
-                    b.Property<DateTime?>("Updated");
+                    b.Property<DateTime?>("Updated")
+                        .ValueGeneratedOnAddOrUpdate();
 
                     b.Property<long?>("UpdatedBy");
 
@@ -173,7 +183,8 @@ namespace BilgeAdam.YMSBank.Data.Migrations
                     b.Property<long>("Id")
                         .ValueGeneratedOnAdd();
 
-                    b.Property<DateTime?>("Created");
+                    b.Property<DateTime?>("Created")
+                        .ValueGeneratedOnAddOrUpdate();
 
                     b.Property<long?>("CreatedBy");
 
@@ -182,7 +193,8 @@ namespace BilgeAdam.YMSBank.Data.Migrations
                     b.Property<string>("Name")
                         .IsRequired();
 
-                    b.Property<DateTime?>("Updated");
+                    b.Property<DateTime?>("Updated")
+                        .ValueGeneratedOnAddOrUpdate();
 
                     b.Property<long?>("UpdatedBy");
 
@@ -207,7 +219,8 @@ namespace BilgeAdam.YMSBank.Data.Migrations
                         .IsRequired()
                         .HasMaxLength(50);
 
-                    b.Property<DateTime?>("Created");
+                    b.Property<DateTime?>("Created")
+                        .ValueGeneratedOnAddOrUpdate();
 
                     b.Property<long?>("CreatedBy");
 
@@ -219,7 +232,8 @@ namespace BilgeAdam.YMSBank.Data.Migrations
                         .IsRequired()
                         .HasMaxLength(50);
 
-                    b.Property<DateTime?>("Updated");
+                    b.Property<DateTime?>("Updated")
+                        .ValueGeneratedOnAddOrUpdate();
 
                     b.Property<long?>("UpdatedBy");
 
@@ -235,25 +249,31 @@ namespace BilgeAdam.YMSBank.Data.Migrations
                     b.Property<long>("Id")
                         .ValueGeneratedOnAdd();
 
-                    b.Property<DateTime?>("Created");
+                    b.Property<DateTime?>("Created")
+                        .ValueGeneratedOnAddOrUpdate();
 
                     b.Property<long?>("CreatedBy");
 
                     b.Property<string>("EMail")
-                        .IsRequired();
+                        .IsRequired()
+                        .HasMaxLength(60);
 
                     b.Property<string>("FirstName")
-                        .IsRequired();
+                        .IsRequired()
+                        .HasMaxLength(50);
 
                     b.Property<bool>("IsActive");
 
                     b.Property<string>("LastName")
-                        .IsRequired();
+                        .IsRequired()
+                        .HasMaxLength(50);
 
                     b.Property<string>("Phone")
-                        .IsRequired();
+                        .IsRequired()
+                        .HasMaxLength(14);
 
-                    b.Property<DateTime?>("Updated");
+                    b.Property<DateTime?>("Updated")
+                        .ValueGeneratedOnAddOrUpdate();
 
                     b.Property<long?>("UpdatedBy");
 
@@ -267,7 +287,8 @@ namespace BilgeAdam.YMSBank.Data.Migrations
                     b.Property<long>("Id")
                         .ValueGeneratedOnAdd();
 
-                    b.Property<DateTime?>("Created");
+                    b.Property<DateTime?>("Created")
+                        .ValueGeneratedOnAddOrUpdate();
 
                     b.Property<long?>("CreatedBy");
 
@@ -277,7 +298,8 @@ namespace BilgeAdam.YMSBank.Data.Migrations
                         .IsRequired()
                         .HasMaxLength(50);
 
-                    b.Property<DateTime?>("Updated");
+                    b.Property<DateTime?>("Updated")
+                        .ValueGeneratedOnAddOrUpdate();
 
                     b.Property<long?>("UpdatedBy");
 
@@ -293,7 +315,8 @@ namespace BilgeAdam.YMSBank.Data.Migrations
 
                     b.Property<decimal>("Amount");
 
-                    b.Property<DateTime?>("Created");
+                    b.Property<DateTime?>("Created")
+                        .ValueGeneratedOnAddOrUpdate();
 
                     b.Property<long?>("CreatedBy");
 
@@ -303,7 +326,8 @@ namespace BilgeAdam.YMSBank.Data.Migrations
 
                     b.Property<long>("ToId");
 
-                    b.Property<DateTime?>("Updated");
+                    b.Property<DateTime?>("Updated")
+                        .ValueGeneratedOnAddOrUpdate();
 
                     b.Property<long?>("UpdatedBy");
 
@@ -321,7 +345,8 @@ namespace BilgeAdam.YMSBank.Data.Migrations
                     b.Property<long>("Id")
                         .ValueGeneratedOnAdd();
 
-                    b.Property<DateTime?>("Created");
+                    b.Property<DateTime?>("Created")
+                        .ValueGeneratedOnAddOrUpdate();
 
                     b.Property<long?>("CreatedBy");
 
@@ -336,7 +361,8 @@ namespace BilgeAdam.YMSBank.Data.Migrations
 
                     b.Property<long>("PersonId");
 
-                    b.Property<DateTime?>("Updated");
+                    b.Property<DateTime?>("Updated")
+                        .ValueGeneratedOnAddOrUpdate();
 
                     b.Property<long?>("UpdatedBy");
 
@@ -356,7 +382,8 @@ namespace BilgeAdam.YMSBank.Data.Migrations
                     b.Property<long>("Id")
                         .ValueGeneratedOnAdd();
 
-                    b.Property<DateTime?>("Created");
+                    b.Property<DateTime?>("Created")
+                        .ValueGeneratedOnAddOrUpdate();
 
                     b.Property<long?>("CreatedBy");
 
@@ -364,7 +391,8 @@ namespace BilgeAdam.YMSBank.Data.Migrations
 
                     b.Property<long>("RoleId");
 
-                    b.Property<DateTime?>("Updated");
+                    b.Property<DateTime?>("Updated")
+                        .ValueGeneratedOnAddOrUpdate();
 
                     b.Property<long?>("UpdatedBy");
 

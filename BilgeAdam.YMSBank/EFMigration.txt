@@ -1,1 +1,2 @@
 Add-Migration X -Context YMSContext -Project BilgeAdam.YMSBank.Data -StartupProject BilgeAdam.YMSBank.Api
+Update-Database -Context YMSContext -Project BilgeAdam.YMSBank.Data -StartupProject BilgeAdam.YMSBank.Api
