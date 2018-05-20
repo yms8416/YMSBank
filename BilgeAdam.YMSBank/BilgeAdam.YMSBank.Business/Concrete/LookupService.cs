@@ -5,20 +5,22 @@ using System.Text;
 using BilgeAdam.YMSBank.DataTransferObjects;
 using BilgeAdam.YMSBank.Data.Context;
 using System.Linq;
+using BilgeAdam.YMSBank.DataAccess.Contracts;
+using BilgeAdam.YMSBank.Data.Entities;
 
 namespace BilgeAdam.YMSBank.Business.Concrete
 {
     public class LookupService : ILookupApi
     {
-        private readonly YMSContext context;
+        private IUnitOfWork UnitOfWork { get; set; }
 
-        public LookupService(YMSContext context)
+        public LookupService(IUnitOfWork unitOfWork)
         {
-            this.context = context;
+            UnitOfWork = unitOfWork;
         }
         public IEnumerable<LookupDto> GetLookups()
         {
-            return context.GenericLookups.Select(i => new LookupDto
+            return UnitOfWork.Repository<GenericLookup>().Select(i => new LookupDto
             {
                 Id = i.Id,
                 Name = i.Name,
@@ -32,7 +34,7 @@ namespace BilgeAdam.YMSBank.Business.Concrete
 
         public IEnumerable<LookupDto> GetLookupsByLookupTypeId(long typeId)
         {
-            return context.GenericLookups.Where(i => i.GenericLookupTypeId == typeId).Select(i => new LookupDto
+            return UnitOfWork.Repository<GenericLookup>().Where(i => i.GenericLookupTypeId == typeId).Select(i => new LookupDto
             {
                 Id = i.Id,
                 Name = i.Name,
@@ -46,7 +48,7 @@ namespace BilgeAdam.YMSBank.Business.Concrete
 
         public IEnumerable<LookupTypeDto> GetLookupTypes()
         {
-            return context.GenericLookupTypes.Select(i => new LookupTypeDto
+            return UnitOfWork.Repository<GenericLookupType>().Select(i => new LookupTypeDto
             {
                 Id = i.Id,
                 Name = i.Name

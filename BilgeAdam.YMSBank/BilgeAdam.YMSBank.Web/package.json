@@ -1,0 +1,24 @@
+{
+  "name": "bilgeadam.ymsbank.web",
+  "version": "1.0.0",
+  "description": "Bilge Adam Eğitim Projesi",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yms8416/YMSBank.git"
+  },
+  "keywords": [
+    "YMS",
+    "Bank",
+    "BilgeAdam"
+  ],
+  "author": "Can PERK",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yms8416/YMSBank/issues"
+  },
+  "homepage": "https://github.com/yms8416/YMSBank#readme"
+}
