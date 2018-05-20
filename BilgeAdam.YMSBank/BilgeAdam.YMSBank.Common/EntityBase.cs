@@ -12,12 +12,12 @@ namespace BilgeAdam.YMSBank.Common
         public EntityBase()
         {
             IsActive = true;
-            Created = DateTime.Now;
-            Updated = DateTime.Now;
+            IsDeleted = false;
         }
         [Key]
         public long Id { get; set; }
         public bool IsActive { get; set; }
+        public bool IsDeleted { get; set; }
         public DateTime? Created { get; set; }
         public DateTime? Updated { get; set; }
         public long? CreatedBy { get; set; }

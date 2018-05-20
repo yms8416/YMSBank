@@ -15,3 +15,5 @@ C:\YMS8416\YMSBank\YMSBank\BilgeAdam.YMSBank\BilgeAdam.YMSBank.Business\obj\Debu
 C:\YMS8416\YMSBank\YMSBank\BilgeAdam.YMSBank\BilgeAdam.YMSBank.Business\obj\Debug\netcoreapp2.0\BilgeAdam.YMSBank.Business.AssemblyInfo.cs
 C:\YMS8416\YMSBank\YMSBank\BilgeAdam.YMSBank\BilgeAdam.YMSBank.Business\obj\Debug\netcoreapp2.0\BilgeAdam.YMSBank.Business.dll
 C:\YMS8416\YMSBank\YMSBank\BilgeAdam.YMSBank\BilgeAdam.YMSBank.Business\obj\Debug\netcoreapp2.0\BilgeAdam.YMSBank.Business.pdb
+C:\YMS8416\YMSBank\YMSBank\BilgeAdam.YMSBank\BilgeAdam.YMSBank.Business\bin\Debug\netcoreapp2.0\BilgeAdam.YMSBank.DataAccess.dll
+C:\YMS8416\YMSBank\YMSBank\BilgeAdam.YMSBank\BilgeAdam.YMSBank.Business\bin\Debug\netcoreapp2.0\BilgeAdam.YMSBank.DataAccess.pdb

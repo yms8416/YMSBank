@@ -1,0 +1,13 @@
+C:\YMS8416\YMSBank\YMSBank\BilgeAdam.YMSBank\BilgeAdam.YMSBank.DataAccess\bin\Debug\netcoreapp2.0\BilgeAdam.YMSBank.DataAccess.deps.json
+C:\YMS8416\YMSBank\YMSBank\BilgeAdam.YMSBank\BilgeAdam.YMSBank.DataAccess\bin\Debug\netcoreapp2.0\BilgeAdam.YMSBank.DataAccess.dll
+C:\YMS8416\YMSBank\YMSBank\BilgeAdam.YMSBank\BilgeAdam.YMSBank.DataAccess\bin\Debug\netcoreapp2.0\BilgeAdam.YMSBank.DataAccess.pdb
+C:\YMS8416\YMSBank\YMSBank\BilgeAdam.YMSBank\BilgeAdam.YMSBank.DataAccess\bin\Debug\netcoreapp2.0\BilgeAdam.YMSBank.Common.dll
+C:\YMS8416\YMSBank\YMSBank\BilgeAdam.YMSBank\BilgeAdam.YMSBank.DataAccess\bin\Debug\netcoreapp2.0\Microsoft.EntityFrameworkCore.dll
+C:\YMS8416\YMSBank\YMSBank\BilgeAdam.YMSBank\BilgeAdam.YMSBank.DataAccess\bin\Debug\netcoreapp2.0\BilgeAdam.YMSBank.Common.pdb
+C:\YMS8416\YMSBank\YMSBank\BilgeAdam.YMSBank\BilgeAdam.YMSBank.DataAccess\bin\Debug\netcoreapp2.0\Microsoft.EntityFrameworkCore.xml
+C:\YMS8416\YMSBank\YMSBank\BilgeAdam.YMSBank\BilgeAdam.YMSBank.DataAccess\obj\Debug\netcoreapp2.0\BilgeAdam.YMSBank.DataAccess.csprojResolveAssemblyReference.cache
+C:\YMS8416\YMSBank\YMSBank\BilgeAdam.YMSBank\BilgeAdam.YMSBank.DataAccess\obj\Debug\netcoreapp2.0\BilgeAdam.YMSBank.DataAccess.csproj.CoreCompileInputs.cache
+C:\YMS8416\YMSBank\YMSBank\BilgeAdam.YMSBank\BilgeAdam.YMSBank.DataAccess\obj\Debug\netcoreapp2.0\BilgeAdam.YMSBank.DataAccess.AssemblyInfoInputs.cache
+C:\YMS8416\YMSBank\YMSBank\BilgeAdam.YMSBank\BilgeAdam.YMSBank.DataAccess\obj\Debug\netcoreapp2.0\BilgeAdam.YMSBank.DataAccess.AssemblyInfo.cs
+C:\YMS8416\YMSBank\YMSBank\BilgeAdam.YMSBank\BilgeAdam.YMSBank.DataAccess\obj\Debug\netcoreapp2.0\BilgeAdam.YMSBank.DataAccess.dll
+C:\YMS8416\YMSBank\YMSBank\BilgeAdam.YMSBank\BilgeAdam.YMSBank.DataAccess\obj\Debug\netcoreapp2.0\BilgeAdam.YMSBank.DataAccess.pdb

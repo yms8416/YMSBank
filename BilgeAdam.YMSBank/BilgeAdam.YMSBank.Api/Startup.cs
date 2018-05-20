@@ -12,6 +12,8 @@ using BilgeAdam.YMSBank.Data.Context;
 using Microsoft.EntityFrameworkCore;
 using BilgeAdam.YMSBank.Contract;
 using BilgeAdam.YMSBank.Business.Concrete;
+using BilgeAdam.YMSBank.DataAccess.Contracts;
+using BilgeAdam.YMSBank.DataAccess.Concretes;
 
 namespace BilgeAdam.YMSBank.Api
 {
@@ -28,6 +30,9 @@ namespace BilgeAdam.YMSBank.Api
         {
             var connstr = Configuration.GetConnectionString("DefaultConnectionString");
             services.AddDbContext<YMSContext>(options => options.UseSqlServer(connstr));
+            services.AddScoped<DbContext, YMSContext>();
+            services.AddScoped<IUnitOfWork, UnitOfWork>();
+            services.AddScoped(typeof(IRepository<>), typeof(Repository<>));
             services.AddScoped<IPersonApi, PersonService>();
             services.AddScoped<ILookupApi, LookupService>();
             services.AddMvc();

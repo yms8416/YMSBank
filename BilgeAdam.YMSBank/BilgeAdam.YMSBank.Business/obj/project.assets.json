@@ -913,6 +913,19 @@
           "bin/placeholder/BilgeAdam.YMSBank.Data.dll": {}
         }
       },
+      "BilgeAdam.YMSBank.DataAccess/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.0",
+        "dependencies": {
+          "BilgeAdam.YMSBank.Common": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/BilgeAdam.YMSBank.DataAccess.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BilgeAdam.YMSBank.DataAccess.dll": {}
+        }
+      },
       "BilgeAdam.YMSBank.DataTransferObjects/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v2.0",
@@ -3397,6 +3410,11 @@
       "path": "../BilgeAdam.YMSBank.Data/BilgeAdam.YMSBank.Data.csproj",
       "msbuildProject": "../BilgeAdam.YMSBank.Data/BilgeAdam.YMSBank.Data.csproj"
     },
+    "BilgeAdam.YMSBank.DataAccess/1.0.0": {
+      "type": "project",
+      "path": "../BilgeAdam.YMSBank.DataAccess/BilgeAdam.YMSBank.DataAccess.csproj",
+      "msbuildProject": "../BilgeAdam.YMSBank.DataAccess/BilgeAdam.YMSBank.DataAccess.csproj"
+    },
     "BilgeAdam.YMSBank.DataTransferObjects/1.0.0": {
       "type": "project",
       "path": "../BilgeAdam.YMSBank.DataTransferObjects/BilgeAdam.YMSBank.DataTransferObjects.csproj",
@@ -3407,6 +3425,7 @@
     ".NETCoreApp,Version=v2.0": [
       "BilgeAdam.YMSBank.Contract >= 1.0.0",
       "BilgeAdam.YMSBank.Data >= 1.0.0",
+      "BilgeAdam.YMSBank.DataAccess >= 1.0.0",
       "BilgeAdam.YMSBank.DataTransferObjects >= 1.0.0",
       "Microsoft.NETCore.App >= 2.0.0"
     ]
@@ -3444,6 +3463,9 @@
       "frameworks": {
         "netcoreapp2.0": {
           "projectReferences": {
+            "C:\\YMS8416\\YMSBank\\YMSBank\\BilgeAdam.YMSBank\\BilgeAdam.YMSBank.DataAccess\\BilgeAdam.YMSBank.DataAccess.csproj": {
+              "projectPath": "C:\\YMS8416\\YMSBank\\YMSBank\\BilgeAdam.YMSBank\\BilgeAdam.YMSBank.DataAccess\\BilgeAdam.YMSBank.DataAccess.csproj"
+            },
             "C:\\YMS8416\\YMSBank\\YMSBank\\BilgeAdam.YMSBank\\BilgeAdam.YMSBank.DataTransferObjects\\BilgeAdam.YMSBank.DataTransferObjects.csproj": {
               "projectPath": "C:\\YMS8416\\YMSBank\\YMSBank\\BilgeAdam.YMSBank\\BilgeAdam.YMSBank.DataTransferObjects\\BilgeAdam.YMSBank.DataTransferObjects.csproj"
             },

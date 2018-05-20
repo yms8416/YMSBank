@@ -10,6 +10,7 @@
         "dependencies": {
           "BilgeAdam.YMSBank.Contract": "1.0.0",
           "BilgeAdam.YMSBank.Data": "1.0.0",
+          "BilgeAdam.YMSBank.DataAccess": "1.0.0",
           "BilgeAdam.YMSBank.DataTransferObjects": "1.0.0"
         },
         "runtime": {
@@ -450,6 +451,14 @@
           "BilgeAdam.YMSBank.Data.dll": {}
         }
       },
+      "BilgeAdam.YMSBank.DataAccess/1.0.0": {
+        "dependencies": {
+          "BilgeAdam.YMSBank.Common": "1.0.0"
+        },
+        "runtime": {
+          "BilgeAdam.YMSBank.DataAccess.dll": {}
+        }
+      },
       "BilgeAdam.YMSBank.DataTransferObjects/1.0.0": {
         "runtime": {
           "BilgeAdam.YMSBank.DataTransferObjects.dll": {}
@@ -824,6 +833,11 @@
       "sha512": ""
     },
     "BilgeAdam.YMSBank.Data/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "BilgeAdam.YMSBank.DataAccess/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

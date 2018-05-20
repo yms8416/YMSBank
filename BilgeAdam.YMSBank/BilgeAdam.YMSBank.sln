@@ -30,6 +30,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Notes", "Notes", "{C374053A
 		EFMigration.txt = EFMigration.txt
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BilgeAdam.YMSBank.DataAccess", "BilgeAdam.YMSBank.DataAccess\BilgeAdam.YMSBank.DataAccess.csproj", "{A541CC26-7E86-4B4F-9328-FD537EE1C622}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -68,6 +70,10 @@ Global
 		{EB15DD20-D182-43D6-87EB-7E48E670A5EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EB15DD20-D182-43D6-87EB-7E48E670A5EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EB15DD20-D182-43D6-87EB-7E48E670A5EE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A541CC26-7E86-4B4F-9328-FD537EE1C622}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A541CC26-7E86-4B4F-9328-FD537EE1C622}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A541CC26-7E86-4B4F-9328-FD537EE1C622}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A541CC26-7E86-4B4F-9328-FD537EE1C622}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -78,6 +84,7 @@ Global
 		{FF6F85C4-9859-402E-B8BF-FF924792A273} = {2D97C182-2E53-4E55-86AC-ED7AED648416}
 		{F7B3CED3-3241-4091-BEBF-1395D695D68D} = {2D97C182-2E53-4E55-86AC-ED7AED648416}
 		{1F10E8CF-71A9-4969-9646-9E19581FF1D4} = {603DD7CD-AA18-4B74-A585-558048D05C19}
+		{A541CC26-7E86-4B4F-9328-FD537EE1C622} = {2D97C182-2E53-4E55-86AC-ED7AED648416}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {61CB87A4-C01B-40D2-8E26-3B7FEA8AA79D}

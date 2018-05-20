@@ -5,20 +5,22 @@ using System.Text;
 using BilgeAdam.YMSBank.DataTransferObjects;
 using BilgeAdam.YMSBank.Data.Context;
 using System.Linq;
+using BilgeAdam.YMSBank.DataAccess.Contracts;
+using BilgeAdam.YMSBank.Data.Entities;
 
 namespace BilgeAdam.YMSBank.Business.Concrete
 {
     public class PersonService : IPersonApi
     {
-        private readonly YMSContext context;
+        IUnitOfWork UnitOfWork { get; set; }
 
-        public PersonService(YMSContext context)
+        public PersonService(IUnitOfWork unitOfWork)
         {
-            this.context = context;
+            UnitOfWork = unitOfWork;
         }
         public IEnumerable<PersonDto> GetPeople()
         {
-            return context.People.Select(i => new PersonDto
+            return UnitOfWork.Repository<Person>().Select(i => new PersonDto
             {
                 Id = i.Id,
                 FullName = $"{i.FirstName} {i.LastName}",
