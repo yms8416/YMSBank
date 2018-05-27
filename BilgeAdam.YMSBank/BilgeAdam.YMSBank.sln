@@ -27,10 +27,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BilgeAdam.YMSBank.DataTrans
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Notes", "Notes", "{C374053A-A9C8-4E85-A001-CA0147EF78C5}"
 	ProjectSection(SolutionItems) = preProject
+		ApiHomework.txt = ApiHomework.txt
 		EFMigration.txt = EFMigration.txt
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BilgeAdam.YMSBank.DataAccess", "BilgeAdam.YMSBank.DataAccess\BilgeAdam.YMSBank.DataAccess.csproj", "{A541CC26-7E86-4B4F-9328-FD537EE1C622}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BilgeAdam.YMSBank.DataAccess", "BilgeAdam.YMSBank.DataAccess\BilgeAdam.YMSBank.DataAccess.csproj", "{A541CC26-7E86-4B4F-9328-FD537EE1C622}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

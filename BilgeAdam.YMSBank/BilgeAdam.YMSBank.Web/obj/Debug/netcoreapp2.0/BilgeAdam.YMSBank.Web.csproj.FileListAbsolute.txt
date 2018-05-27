@@ -3,9 +3,9 @@ C:\YMS8416\YMSBank\YMSBank\BilgeAdam.YMSBank\BilgeAdam.YMSBank.Web\bin\Debug\net
 C:\YMS8416\YMSBank\YMSBank\BilgeAdam.YMSBank\BilgeAdam.YMSBank.Web\bin\Debug\netcoreapp2.0\BilgeAdam.YMSBank.Web.runtimeconfig.dev.json
 C:\YMS8416\YMSBank\YMSBank\BilgeAdam.YMSBank\BilgeAdam.YMSBank.Web\bin\Debug\netcoreapp2.0\BilgeAdam.YMSBank.Web.dll
 C:\YMS8416\YMSBank\YMSBank\BilgeAdam.YMSBank\BilgeAdam.YMSBank.Web\bin\Debug\netcoreapp2.0\BilgeAdam.YMSBank.Web.pdb
-C:\YMS8416\YMSBank\YMSBank\BilgeAdam.YMSBank\BilgeAdam.YMSBank.Web\obj\Debug\netcoreapp2.0\BilgeAdam.YMSBank.Web.csprojResolveAssemblyReference.cache
 C:\YMS8416\YMSBank\YMSBank\BilgeAdam.YMSBank\BilgeAdam.YMSBank.Web\obj\Debug\netcoreapp2.0\BilgeAdam.YMSBank.Web.csproj.CoreCompileInputs.cache
 C:\YMS8416\YMSBank\YMSBank\BilgeAdam.YMSBank\BilgeAdam.YMSBank.Web\obj\Debug\netcoreapp2.0\BilgeAdam.YMSBank.Web.AssemblyInfoInputs.cache
 C:\YMS8416\YMSBank\YMSBank\BilgeAdam.YMSBank\BilgeAdam.YMSBank.Web\obj\Debug\netcoreapp2.0\BilgeAdam.YMSBank.Web.AssemblyInfo.cs
 C:\YMS8416\YMSBank\YMSBank\BilgeAdam.YMSBank\BilgeAdam.YMSBank.Web\obj\Debug\netcoreapp2.0\BilgeAdam.YMSBank.Web.dll
 C:\YMS8416\YMSBank\YMSBank\BilgeAdam.YMSBank\BilgeAdam.YMSBank.Web\obj\Debug\netcoreapp2.0\BilgeAdam.YMSBank.Web.pdb
+C:\YMS8416\YMSBank\YMSBank\BilgeAdam.YMSBank\BilgeAdam.YMSBank.Web\obj\Debug\netcoreapp2.0\BilgeAdam.YMSBank.Web.csprojAssemblyReference.cache
