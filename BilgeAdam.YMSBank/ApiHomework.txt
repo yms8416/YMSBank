@@ -1,0 +1,26 @@
+class Program
+    {
+        static void Main(string[] args)
+        {
+            var key = "e7c2fa819e98481793c00001f3a83936";
+            var client = new HttpClient();
+            client.BaseAddress = new Uri("https://api.hurriyet.com.tr");
+            client.DefaultRequestHeaders.Add("apikey", key);
+            var result = client.GetAsync("v1/articles?$select=Title").Result;
+            var newsContent = result.Content.ReadAsStringAsync().Result;
+            var newList = JsonConvert.DeserializeObject<List<News>>(newsContent);
+            foreach (var item in newList)
+            {
+                Console.WriteLine(item.Title);
+            }
+            Console.ReadLine();
+        }
+    }
+
+    class News
+    {
+        public string Title { get; set; }
+    }
+
+
+	Bir api bulunacak ve web projesinde o api ye istek atýp sonuçlarý sayfaya yazdýrýlacak
