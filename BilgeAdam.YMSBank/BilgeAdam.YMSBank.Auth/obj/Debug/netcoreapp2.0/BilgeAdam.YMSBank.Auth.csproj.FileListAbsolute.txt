@@ -8,3 +8,4 @@ C:\YMS8416\YMSBank\YMSBank\BilgeAdam.YMSBank\BilgeAdam.YMSBank.Auth\obj\Debug\ne
 C:\YMS8416\YMSBank\YMSBank\BilgeAdam.YMSBank\BilgeAdam.YMSBank.Auth\obj\Debug\netcoreapp2.0\BilgeAdam.YMSBank.Auth.AssemblyInfo.cs
 C:\YMS8416\YMSBank\YMSBank\BilgeAdam.YMSBank\BilgeAdam.YMSBank.Auth\obj\Debug\netcoreapp2.0\BilgeAdam.YMSBank.Auth.dll
 C:\YMS8416\YMSBank\YMSBank\BilgeAdam.YMSBank\BilgeAdam.YMSBank.Auth\obj\Debug\netcoreapp2.0\BilgeAdam.YMSBank.Auth.pdb
+C:\YMS8416\YMSBank\YMSBank\BilgeAdam.YMSBank\BilgeAdam.YMSBank.Auth\obj\Debug\netcoreapp2.0\BilgeAdam.YMSBank.Auth.csprojAssemblyReference.cache

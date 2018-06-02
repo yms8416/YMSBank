@@ -6,6 +6,7 @@
 
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.All" Version="2.0.7" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="2.0.3" />
   </ItemGroup>
 
   <ItemGroup>
@@ -13,9 +14,17 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Folder Include="Areas\Account\Controllers\" />
+    <Folder Include="Areas\Account\Data\" />
+    <Folder Include="Areas\Account\Models\" />
+    <Folder Include="Areas\Manage\Models\" />
     <Folder Include="wwwroot\build\js\" />
     <Folder Include="wwwroot\images\" />
     <Folder Include="wwwroot\build\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\BilgeAdam.YMSBank.Web.Utilities\BilgeAdam.YMSBank.Web.Utilities.csproj" />
   </ItemGroup>
 
 </Project>
