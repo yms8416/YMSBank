@@ -24,6 +24,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\BilgeAdam.YMSBank.DataTransferObjects\BilgeAdam.YMSBank.DataTransferObjects.csproj" />
     <ProjectReference Include="..\BilgeAdam.YMSBank.Web.Utilities\BilgeAdam.YMSBank.Web.Utilities.csproj" />
   </ItemGroup>
 

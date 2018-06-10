@@ -11,9 +11,10 @@ using System;
 namespace BilgeAdam.YMSBank.Data.Migrations
 {
     [DbContext(typeof(YMSContext))]
-    partial class YMSContextModelSnapshot : ModelSnapshot
+    [Migration("20180610101713_ModuleSchema")]
+    partial class ModuleSchema
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder

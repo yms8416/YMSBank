@@ -11,9 +11,10 @@ using System;
 namespace BilgeAdam.YMSBank.Data.Migrations
 {
     [DbContext(typeof(YMSContext))]
-    partial class YMSContextModelSnapshot : ModelSnapshot
+    [Migration("20180610100852_MenuparentIdNullable")]
+    partial class MenuparentIdNullable
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -224,11 +225,12 @@ namespace BilgeAdam.YMSBank.Data.Migrations
 
                     b.Property<long?>("CreatedBy");
 
+                    b.Property<string>("Header")
+                        .HasMaxLength(30);
+
                     b.Property<bool>("IsActive");
 
                     b.Property<bool>("IsDeleted");
-
-                    b.Property<long?>("ModuleId");
 
                     b.Property<long?>("ParentId");
 
@@ -242,37 +244,9 @@ namespace BilgeAdam.YMSBank.Data.Migrations
 
                     b.HasKey("Id");
 
-                    b.HasIndex("ModuleId");
-
                     b.HasIndex("ParentId");
 
                     b.ToTable("Menus","Enterprise");
-                });
-
-            modelBuilder.Entity("BilgeAdam.YMSBank.Data.Entities.Module", b =>
-                {
-                    b.Property<long>("Id")
-                        .ValueGeneratedOnAdd();
-
-                    b.Property<DateTime?>("Created");
-
-                    b.Property<long?>("CreatedBy");
-
-                    b.Property<bool>("IsActive");
-
-                    b.Property<bool>("IsDeleted");
-
-                    b.Property<string>("Name")
-                        .IsRequired()
-                        .HasMaxLength(30);
-
-                    b.Property<DateTime?>("Updated");
-
-                    b.Property<long?>("UpdatedBy");
-
-                    b.HasKey("Id");
-
-                    b.ToTable("Modules","Enterprise");
                 });
 
             modelBuilder.Entity("BilgeAdam.YMSBank.Data.Entities.Person", b =>
@@ -494,10 +468,6 @@ namespace BilgeAdam.YMSBank.Data.Migrations
 
             modelBuilder.Entity("BilgeAdam.YMSBank.Data.Entities.Menu", b =>
                 {
-                    b.HasOne("BilgeAdam.YMSBank.Data.Entities.Module", "Module")
-                        .WithMany()
-                        .HasForeignKey("ModuleId");
-
                     b.HasOne("BilgeAdam.YMSBank.Data.Entities.Menu", "Parent")
                         .WithMany()
                         .HasForeignKey("ParentId");

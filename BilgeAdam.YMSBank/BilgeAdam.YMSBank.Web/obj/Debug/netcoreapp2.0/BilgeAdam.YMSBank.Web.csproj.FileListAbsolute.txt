@@ -12,3 +12,5 @@ C:\YMS8416\YMSBank\YMSBank\BilgeAdam.YMSBank\BilgeAdam.YMSBank.Web\obj\Debug\net
 C:\YMS8416\YMSBank\YMSBank\BilgeAdam.YMSBank\BilgeAdam.YMSBank.Web\bin\Debug\netcoreapp2.0\BilgeAdam.YMSBank.Web.Utilities.dll
 C:\YMS8416\YMSBank\YMSBank\BilgeAdam.YMSBank\BilgeAdam.YMSBank.Web\bin\Debug\netcoreapp2.0\BilgeAdam.YMSBank.Web.Utilities.pdb
 C:\YMS8416\YMSBank\YMSBank\BilgeAdam.YMSBank\BilgeAdam.YMSBank.Web\obj\Debug\netcoreapp2.0\BilgeAdam.YMSBank.Web.csproj.CopyComplete
+C:\YMS8416\YMSBank\YMSBank\BilgeAdam.YMSBank\BilgeAdam.YMSBank.Web\bin\Debug\netcoreapp2.0\BilgeAdam.YMSBank.DataTransferObjects.dll
+C:\YMS8416\YMSBank\YMSBank\BilgeAdam.YMSBank\BilgeAdam.YMSBank.Web\bin\Debug\netcoreapp2.0\BilgeAdam.YMSBank.DataTransferObjects.pdb

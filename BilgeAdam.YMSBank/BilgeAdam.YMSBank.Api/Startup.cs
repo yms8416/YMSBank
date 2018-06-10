@@ -35,6 +35,7 @@ namespace BilgeAdam.YMSBank.Api
             services.AddScoped(typeof(IRepository<>), typeof(Repository<>));
             services.AddScoped<IPersonApi, PersonService>();
             services.AddScoped<ILookupApi, LookupService>();
+            services.AddScoped<IMenuApi, MenuService>();
             services.AddMvc();
             services.AddSwaggerGen(setup =>
             {

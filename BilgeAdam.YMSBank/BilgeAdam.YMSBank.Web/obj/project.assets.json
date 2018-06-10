@@ -5029,6 +5029,16 @@
           "lib/netstandard1.3/Microsoft.WindowsAzure.Storage.dll": {}
         }
       },
+      "BilgeAdam.YMSBank.DataTransferObjects/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.0",
+        "compile": {
+          "bin/placeholder/BilgeAdam.YMSBank.DataTransferObjects.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BilgeAdam.YMSBank.DataTransferObjects.dll": {}
+        }
+      },
       "BilgeAdam.YMSBank.Web.Utilities/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v2.0",
@@ -13126,6 +13136,11 @@
         "windowsazure.storage.nuspec"
       ]
     },
+    "BilgeAdam.YMSBank.DataTransferObjects/1.0.0": {
+      "type": "project",
+      "path": "../BilgeAdam.YMSBank.DataTransferObjects/BilgeAdam.YMSBank.DataTransferObjects.csproj",
+      "msbuildProject": "../BilgeAdam.YMSBank.DataTransferObjects/BilgeAdam.YMSBank.DataTransferObjects.csproj"
+    },
     "BilgeAdam.YMSBank.Web.Utilities/1.0.0": {
       "type": "project",
       "path": "../BilgeAdam.YMSBank.Web.Utilities/BilgeAdam.YMSBank.Web.Utilities.csproj",
@@ -13134,6 +13149,7 @@
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.0": [
+      "BilgeAdam.YMSBank.DataTransferObjects >= 1.0.0",
       "BilgeAdam.YMSBank.Web.Utilities >= 1.0.0",
       "Microsoft.AspNetCore.All >= 2.0.7",
       "Microsoft.NETCore.App >= 2.0.0",
@@ -13170,6 +13186,9 @@
       "frameworks": {
         "netcoreapp2.0": {
           "projectReferences": {
+            "C:\\YMS8416\\YMSBank\\YMSBank\\BilgeAdam.YMSBank\\BilgeAdam.YMSBank.DataTransferObjects\\BilgeAdam.YMSBank.DataTransferObjects.csproj": {
+              "projectPath": "C:\\YMS8416\\YMSBank\\YMSBank\\BilgeAdam.YMSBank\\BilgeAdam.YMSBank.DataTransferObjects\\BilgeAdam.YMSBank.DataTransferObjects.csproj"
+            },
             "C:\\YMS8416\\YMSBank\\YMSBank\\BilgeAdam.YMSBank\\BilgeAdam.YMSBank.Web.Utilities\\BilgeAdam.YMSBank.Web.Utilities.csproj": {
               "projectPath": "C:\\YMS8416\\YMSBank\\YMSBank\\BilgeAdam.YMSBank\\BilgeAdam.YMSBank.Web.Utilities\\BilgeAdam.YMSBank.Web.Utilities.csproj"
             }

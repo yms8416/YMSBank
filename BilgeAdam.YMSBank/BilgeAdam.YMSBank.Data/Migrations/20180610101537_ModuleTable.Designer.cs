@@ -11,9 +11,10 @@ using System;
 namespace BilgeAdam.YMSBank.Data.Migrations
 {
     [DbContext(typeof(YMSContext))]
-    partial class YMSContextModelSnapshot : ModelSnapshot
+    [Migration("20180610101537_ModuleTable")]
+    partial class ModuleTable
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -262,9 +263,7 @@ namespace BilgeAdam.YMSBank.Data.Migrations
 
                     b.Property<bool>("IsDeleted");
 
-                    b.Property<string>("Name")
-                        .IsRequired()
-                        .HasMaxLength(30);
+                    b.Property<string>("Name");
 
                     b.Property<DateTime?>("Updated");
 
@@ -272,7 +271,7 @@ namespace BilgeAdam.YMSBank.Data.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Modules","Enterprise");
+                    b.ToTable("Modules");
                 });
 
             modelBuilder.Entity("BilgeAdam.YMSBank.Data.Entities.Person", b =>

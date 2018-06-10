@@ -21,8 +21,11 @@ namespace BilgeAdam.YMSBank.Data.Entities
         public string Controller { get; set; }
         [MaxLength(50)]
         public string Area { get; set; }
-        public long ParentId { get; set; }
+        public long? ModuleId { get; set; }
+        public long? ParentId { get; set; }
         [ForeignKey(nameof(ParentId))]
         public virtual Menu Parent { get; set; }
+        [ForeignKey(nameof(ModuleId))]
+        public virtual Module Module { get; set; }
     }
 }
